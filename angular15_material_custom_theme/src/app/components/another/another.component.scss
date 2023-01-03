@@ -1,0 +1,9 @@
+@use "@angular/material" as mat;
+
+.my-btn {
+  color: white !important;
+  background-color: mat.get-color-from-palette(
+    mat.define-palette(mat.$light-blue-palette),
+    500
+  ) !important;
+}
